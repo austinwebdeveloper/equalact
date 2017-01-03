@@ -1,0 +1,27 @@
+/*
+ * Tpath Megamenu Framework CSS
+ * 
+ */
+
+.field-tpath-megamenu-status,
+.field-tpath-megamenu-width,
+.field-tpath-megamenu-columns,
+.field-tpath-megamenu-title,
+.field-tpath-megamenu-link,
+.field-tpath-megamenu-content,
+.field-tpath-megamenu-icon {
+	display: none;
+}
+
+.menu-item-depth-0 .field-tpath-megamenu-status,
+.menu-item-depth-0.tpath-megamenu-active .field-tpath-megamenu-width,
+.menu-item-depth-0.tpath-megamenu-active .field-tpath-megamenu-columns,
+.menu-item-depth-1.tpath-megamenu-active .field-tpath-megamenu-title,
+.menu-item-depth-1.tpath-megamenu-active .field-tpath-megamenu-link,
+.menu-item-depth-1.tpath-megamenu-active .field-tpath-megamenu-content,
+.menu-item-depth-2.tpath-megamenu-active .field-tpath-megamenu-title,
+.menu-item-depth-2.tpath-megamenu-active .field-tpath-megamenu-link,
+.menu-item-depth-2.tpath-megamenu-active .field-tpath-megamenu-content,
+.tpath-megamenu-active .field-tpath-megamenu-icon {
+	display: block;
+}
