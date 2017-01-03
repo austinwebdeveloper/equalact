@@ -1,33 +1,6 @@
 <?php
-session_start();
-require_once('db_config.php');
-include ('header.php');
-
-$_SESSION['subtotal'] = $_POST['subtotal'];
-
-$_SESSION['shipping'] = $_POST['shipping'];
-
-$_SESSION['bid'] = $_POST['bid'];
-
-$_SESSION['state'] = $_POST['state'];
-
-$_SESSION['zip'] = $_POST['zip'];
-
-$_SESSION['city'] = $_POST['city'];
-
-$_SESSION['firstname'] = $_POST['firstname'];
-
-$_SESSION['lastname'] = $_POST['lastname'];  
-
-      
 ?>
-<style>
 
-input[type="text"] {
-    background-color: #f5f5f5;
-    border: 0px;
-}
-</style>
 <div class="main-container">
 
 
@@ -153,12 +126,4 @@ margin-top:5%;
 </div>
 		
             
-        
-			
-<?php
-
-
-include ('footer.php');
-
-?>			
-			
+        		
